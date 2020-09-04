@@ -1,0 +1,574 @@
+# Copyright (C) 2020 Cenote
+# This file is distributed under the same license as the Cenote package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cenote\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: team@themegrill.com\n"
+"Report-Msgid-Bugs-To: themegrill@gmail.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:18
+msgid "Sorry, but nothing exists here."
+msgstr ""
+
+#: 404.php:22
+msgid "Try searching or "
+msgstr ""
+
+#: 404.php:22
+msgid "Go back to Home"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:55
+msgid "Primary"
+msgstr ""
+
+#: functions.php:56
+msgid "Header Top"
+msgstr ""
+
+#: functions.php:190
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:192
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:202
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:204
+msgid "Add widgets here to show on footer 1."
+msgstr ""
+
+#: functions.php:214
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:216
+msgid "Add widgets here to show on footer 2."
+msgstr ""
+
+#: functions.php:226
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:228
+msgid "Add widgets here to show on footer 3."
+msgstr ""
+
+#: functions.php:238
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:240
+msgid "Add widgets here to show on footer 4."
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "View PRO version"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:32
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:39
+msgid "Social"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:48
+msgid "Top Header Bar"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:57
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:66
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:75
+msgid "Post Slider"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:84
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:93
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:102
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:111
+msgid "Archive/Blog"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:120, template-parts/pagination/pagination.php:27
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:129
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:138
+msgid "Post Ribbon"
+msgstr ""
+
+#: inc/customizer/kirki-customizer.php:147, inc/customizer/options/options-archive.php:79, inc/customizer/options/options-page.php:26, inc/customizer/options/options-single.php:30
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:13
+msgid "Archive/Blog Style"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:29
+msgid "Post Column"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:33
+msgid "2"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:34
+msgid "3"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:51, inc/customizer/options/options-single.php:40
+msgid "Enable Drop Cap"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:52, inc/customizer/options/options-single.php:41
+msgid "Makes the first letter of the content bigger"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:64
+msgid "Post Content Order"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:65, inc/customizer/options/options-header.php:25, inc/customizer/options/options-page.php:14, inc/customizer/options/options-single.php:14, inc/customizer/options/options-social.php:12
+msgid "Drag & Drop items to re-arrange the order"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:75, inc/customizer/options/options-page.php:24, inc/customizer/options/options-single.php:25
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:76, inc/customizer/options/options-single.php:28
+msgid "Meta Tags"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:77, inc/customizer/options/options-header-media.php:39, inc/customizer/options/options-page.php:23, inc/customizer/options/options-single.php:27
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/options/options-archive.php:78, inc/customizer/options/options-page.php:25, inc/customizer/options/options-single.php:29
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/options/options-breadcrumb.php:13
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/options/options-color.php:13
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:13
+msgid "Footer Style"
+msgstr ""
+
+#: inc/customizer/options/options-footer.php:28
+msgid "Enable Back To Top"
+msgstr ""
+
+#: inc/customizer/options/options-header-media.php:13
+msgid "Enable media info box"
+msgstr ""
+
+#: inc/customizer/options/options-header-media.php:24
+msgid "Header Media Layout"
+msgstr ""
+
+#: inc/customizer/options/options-header-media.php:64
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/options/options-header-media.php:89
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/options/options-header-media.php:114
+msgid "Button URL"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:13
+msgid "Enable Header Top Bar"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:24
+msgid "Header Top Item Order"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:32
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:33
+msgid "Contact Info"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:50
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:80
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:110
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:121
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/options/options-header.php:137
+msgid "Enable Search Icon"
+msgstr ""
+
+#: inc/customizer/options/options-layout.php:13
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/options/options-layout.php:28
+msgid "Archive/Blog Layout"
+msgstr ""
+
+#: inc/customizer/options/options-layout.php:45
+msgid "Single Post Layout"
+msgstr ""
+
+#: inc/customizer/options/options-layout.php:62
+msgid "Page Layout"
+msgstr ""
+
+#: inc/customizer/options/options-page.php:13
+msgid "Page Content Order"
+msgstr ""
+
+#: inc/customizer/options/options-post-ribbon.php:13
+msgid "Enable Post Ribbon"
+msgstr ""
+
+#: inc/customizer/options/options-post-ribbon.php:24
+msgid "Category Select"
+msgstr ""
+
+#: inc/customizer/options/options-post-ribbon.php:28, inc/customizer/options/options-post-ribbon.php:53, inc/customizer/options/options-post-slider.php:52, inc/customizer/options/options-single.php:26
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/options/options-post-ribbon.php:29
+msgid "Latest"
+msgstr ""
+
+#: inc/customizer/options/options-post-ribbon.php:44
+msgid " Display All Category"
+msgstr ""
+
+#: inc/customizer/options/options-post-slider.php:13
+msgid "Enable post slider"
+msgstr ""
+
+#: inc/customizer/options/options-post-slider.php:25
+msgid "Category select"
+msgstr ""
+
+#: inc/customizer/options/options-post-slider.php:29
+msgid "Latest Post"
+msgstr ""
+
+#: inc/customizer/options/options-post-slider.php:30
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/options/options-single.php:13
+msgid "Single Post Content Order"
+msgstr ""
+
+#: inc/customizer/options/options-single.php:52
+msgid "Enable Author Box"
+msgstr ""
+
+#: inc/customizer/options/options-single.php:63
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:11
+msgid "Add Social Profile"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:17
+msgid "Social Profile"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:32
+msgid "Social Icon"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:36
+msgid "Behance"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:37
+msgid "Blogger"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:38
+msgid "CodePen"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:39
+msgid "Delicious"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:40
+msgid "DeviantArt"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:41
+msgid "Dribbble"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:42
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:43
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:44
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:45
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:46
+msgid "Medium"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:47
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:48
+msgid "Quora"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:49
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:50
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:51
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:52
+msgid "Yelp"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:53
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer/options/options-social.php:58
+msgid "Social Link URL"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:13
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/options/options-typography.php:44
+msgid "Heading"
+msgstr ""
+
+#: inc/demo-config.php:25
+msgid "Cenote"
+msgstr ""
+
+#: inc/demo-config.php:29
+msgid "Cenote Fashion"
+msgstr ""
+
+#: inc/demo-config.php:33
+msgid "Cenote Tech"
+msgstr ""
+
+#: inc/meta-boxes.php:12
+msgid "Choose Layout"
+msgstr ""
+
+#: inc/meta-boxes.php:34
+msgid "Full Width"
+msgstr ""
+
+#: inc/meta-boxes.php:35
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:36
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:37
+msgid "Default"
+msgstr ""
+
+#: inc/template-functions.php:91
+msgid "Back To Top"
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:64
+msgid "Category: %1$s"
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:70
+msgid "Tagged: %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:80
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:97, template-parts/content-page.php:47
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:23
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:22, template-parts/content-single-cover.php:62
+msgid "Previous Article"
+msgstr ""
+
+#: single.php:23, template-parts/content-single-cover.php:63
+msgid "Next Article"
+msgstr ""
+
+#: template-parts/author/author-box.php:40
+msgid "Website"
+msgstr ""
+
+#: template-parts/author/author-box.php:47
+msgid "Posts created"
+msgstr ""
+
+#: template-parts/content-audio.php:35, template-parts/content-gallery.php:53, template-parts/content-link.php:28, template-parts/content-quote.php:29, template-parts/content-search.php:34, template-parts/content-video.php:35, template-parts/content.php:68
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:32, template-parts/content-single-audio.php:48, template-parts/content-single-cover.php:48, template-parts/content-single-gallery.php:64, template-parts/content-single-link.php:43, template-parts/content-single-quote.php:21, template-parts/content-single-video.php:48, template-parts/content-single.php:54
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:52
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress.
+#: template-parts/footer/footer-info.php:12
+msgid "Copyright %1$s %2$s All Right Reserved. Theme By %3$s. Proudly powered by %4$s"
+msgstr ""
+
+#: template-parts/footer/search-form.php:14
+msgid "Begin typing your search term above and press enter to search. Press ESC to cancel."
+msgstr ""
+
+#: template-parts/pagination/pagination.php:17
+msgid "Posts Navigation"
+msgstr ""
+
+#: template-parts/pagination/pagination.php:28
+msgid "Next"
+msgstr ""
+
+#: template-parts/pagination/pagination.php:29
+msgid "Previous"
+msgstr ""
+
+#: template-parts/related/related-post.php:35
+msgid "Related Posts"
+msgstr ""
