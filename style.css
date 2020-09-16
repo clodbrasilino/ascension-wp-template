@@ -100,7 +100,6 @@ header a, header a:hover, header a:link {
 }
 
 .menu-item, 
-.page_item, 
 .built-by {
     list-style-type: none;
     padding: 0 1em 0 1em;
@@ -110,7 +109,6 @@ header a, header a:hover, header a:link {
 }
 
 .menu-item:after, 
-.page_item:after, 
 .built-by:after {
     content: "";
     display: flex;
@@ -121,8 +119,7 @@ header a, header a:hover, header a:link {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.menu-item:hover:after, 
-.page_item:hover:after,
+.menu-item:hover:after,
 .built-by:hover:after {
     width: 100%;
 }
