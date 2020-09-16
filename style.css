@@ -55,10 +55,10 @@ header a, header a:hover, header a:link {
     padding: 1em;
 }
 
-.search-button {
-    width: 2em;
+.menu-button {
     height: 2em;
     vertical-align: center;
+    margin-bottom: 0.8em;
 }
 
 .centered {
@@ -87,17 +87,23 @@ header a, header a:hover, header a:link {
     padding: 0.15em;
 }
 
+.menu-block div {
+    width: 100%;
+}
+
 .menu {
     display: inline-flex;
+    justify-content: center;
+    padding: 0 0 0.8em 0;
+    margin: 0;
+    width: 100%;
 }
 
 .menu-item, 
 .page_item, 
 .built-by {
     list-style-type: none;
-    padding: 0.15em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
+    padding: 0 1em 0 1em;
     color: white;
     text-decoration: none;
     position: relative;
@@ -182,4 +188,6 @@ footer a:hover {
 .footer {
     display: flex;
     justify-content: center;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
 }

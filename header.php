@@ -47,7 +47,7 @@
         </div>
         <div class="main-menu">
             <div class="menu-block menu-1">
-                <a class="menu-item" href="#">ASC Membros</a>
+                <a class="menu-button" href="#">ASC Membros</a>
             </div>
             <div class="menu-block menu-2">
                 <!--<ul class="menu-bar">
@@ -70,7 +70,7 @@
             </div>
             <div class="menu-block menu-5">
                 <a href="#" class="search-button">
-                    <img class="search-button" src="/wp-content/themes/ascension/images/busca.png">
+                    <img class="menu-button" src="/wp-content/themes/ascension/images/busca.png">
                 </a>
             </div>
         </div>
