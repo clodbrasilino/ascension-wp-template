@@ -101,11 +101,14 @@ header a, header a:hover, header a:link {
 
 .menu>ul>li>a,
 .built-by {
-    list-style-type: none;
     padding: 0 1em 0 1em;
     color: white;
     text-decoration: none;
     position: relative;
+}
+
+.menu ul {
+    list-style-type: none;
 }
 
 .menu>ul>li>a:after, 
