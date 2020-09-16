@@ -87,7 +87,13 @@ header a, header a:hover, header a:link {
     padding: 0.15em;
 }
 
-.menu-item, .page-item-2 {
+.menu {
+    display: inline-flex;
+}
+
+.menu-item, 
+.page_item, 
+.built-by {
     list-style-type: none;
     padding: 0.15em;
     padding-left: 0.7em;
@@ -97,7 +103,9 @@ header a, header a:hover, header a:link {
     position: relative;
 }
 
-.menu-item:after, .page-item-2:after {
+.menu-item:after, 
+.page_item:after, 
+.built-by:after {
     content: "";
     display: flex;
     width: 0;
@@ -107,8 +115,17 @@ header a, header a:hover, header a:link {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.menu-item:hover:after, .page-item-2:hover:after {
+.menu-item:hover:after, 
+.page_item:hover:after,
+.built-by:hover:after {
     width: 100%;
+}
+
+.built-by a:link,
+.built-by a:hover,
+.built-by a:active,
+.built-by a:visited {
+    text-decoration: none;
 }
 
 .members-button {
