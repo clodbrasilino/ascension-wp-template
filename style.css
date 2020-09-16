@@ -99,7 +99,7 @@ header a, header a:hover, header a:link {
     width: 100%;
 }
 
-.menu>ul>li,
+.menu>ul>li>a,
 .built-by {
     list-style-type: none;
     padding: 0 1em 0 1em;
@@ -108,7 +108,7 @@ header a, header a:hover, header a:link {
     position: relative;
 }
 
-.menu>ul>li:after, 
+.menu>ul>li>a:after, 
 .built-by:after {
     content: "";
     display: flex;
@@ -119,16 +119,19 @@ header a, header a:hover, header a:link {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.menu>ul>li:hover:after,
+.menu>ul>li>a:hover:after,
 .built-by:hover:after {
     width: 100%;
 }
+
+.menu>ul>li>ul>li
 
 .built-by a:link,
 .built-by a:hover,
 .built-by a:active,
 .built-by a:visited {
     text-decoration: none;
+    color: white;
 }
 
 .members-button {
