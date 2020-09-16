@@ -5,3 +5,164 @@ Description: Tema do site da guild Ascension (Azralon-US)
 Version: 0.0.1
 Tags: bootstrap
 */
+body {
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: black;
+    display: block  ;
+}
+
+header a, header a:hover, header a:link {
+    color:white;
+    text-decoration: none;
+}
+
+.inline {
+    float: left;
+}
+
+.social-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3em;
+    width: 100%;
+    margin: auto;
+    background: black;
+}
+
+.last-social {
+    margin-right: 2em;
+}
+
+#social-row, #menu-row, #main-banner-row, #footer-row {
+    background: black;
+}
+
+.social-icon {
+    width: 2em;
+    height: 2em;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.spaced {
+    padding: 1em;
+}
+
+.search-button {
+    width: 2em;
+    height: 2em;
+    vertical-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-menu {
+    display: flex;
+    height: 3em;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.brand {
+    overflow: visible;
+    width: 5em;
+    height: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    display: inline-flex;
+    margin: 0;
+    padding: 0.15em;
+}
+
+.menu-item, .page-item-2 {
+    list-style-type: none;
+    padding: 0.15em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-item:after, .page-item-2:after {
+    content: "";
+    display: flex;
+    width: 0;
+    margin: auto;
+    padding-top: 0.1em;
+    border-bottom: 0.15em solid red;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.menu-item:hover:after, .page-item-2:hover:after {
+    width: 100%;
+}
+
+.members-button {
+    list-style-type: none;
+    padding: 0.15em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    color: white;
+    background: teal;
+}
+
+.menu-block {
+    justify-content: center;
+    display: flex;
+}
+
+.menu-1 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.menu-2 {
+    flex-grow: 4;
+}
+
+.menu-3 {
+    flex-grow: 2;
+}
+
+.menu-4 {
+    flex-grow: 4;
+}
+
+.menu-5 {
+    padding-right: 1em;
+    flex-grow: 1;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    transition: width 1s ease;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
