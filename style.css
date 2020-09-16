@@ -99,7 +99,7 @@ header a, header a:hover, header a:link {
     width: 100%;
 }
 
-.menu-item, 
+.menu>ul>li,
 .built-by {
     list-style-type: none;
     padding: 0 1em 0 1em;
@@ -108,7 +108,7 @@ header a, header a:hover, header a:link {
     position: relative;
 }
 
-.menu-item:after, 
+.menu>ul>li:after, 
 .built-by:after {
     content: "";
     display: flex;
@@ -119,7 +119,7 @@ header a, header a:hover, header a:link {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.menu-item:hover:after,
+.menu>ul>li:hover:after,
 .built-by:hover:after {
     width: 100%;
 }
