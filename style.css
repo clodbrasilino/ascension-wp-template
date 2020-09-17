@@ -3,7 +3,7 @@ Theme Name: Ascension Guild Theme
 Author: Clodoaldo Brasilino (Xenarius)
 Description: Tema do site da guild Ascension (Azralon-US)
 Version: 0.0.1
-Tags: bootstrap
+Tags: wow
 */
 body {
     background: white;
@@ -11,8 +11,12 @@ body {
 }
 
 header {
+	  top: 1em;
     background: black;
-    display: block  ;
+    display: block;
+	  position: fixed;
+	  width: 100%;
+	  height: 6.5em;
 }
 
 header a, header a:hover, header a:link {
@@ -28,7 +32,7 @@ header a, header a:hover, header a:link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 3em;
+    height: 30%;
     width: 100%;
     margin: auto;
     background: black;
@@ -36,10 +40,6 @@ header a, header a:hover, header a:link {
 
 .last-social {
     margin-right: 2em;
-}
-
-#social-row, #menu-row, #main-banner-row, #footer-row {
-    background: black;
 }
 
 .social-icon {
@@ -68,7 +68,7 @@ header a, header a:hover, header a:link {
 
 .main-menu {
     display: flex;
-    height: 3em;
+    height: 70%;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -93,7 +93,7 @@ header a, header a:hover, header a:link {
 
 .menu {
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 0 0 0.8em 0;
     margin: 0;
     width: 100%;
@@ -109,6 +109,24 @@ header a, header a:hover, header a:link {
 
 .menu ul {
     list-style-type: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: inline-flex;
+		justify-content: space-evenly;
+}
+
+.menu ul>li>ul {
+	display: none;
+}
+
+.menu li:hover>ul {
+	display: block;
+  transform: translateY(0);
+}
+
+.menu ul {
+		transition: all 1s ease;
 }
 
 .menu>ul>li>a:after, 
@@ -127,7 +145,17 @@ header a, header a:hover, header a:link {
     width: 100%;
 }
 
-.menu>ul>li>ul>li
+.menu>ul>li>ul>li {
+	background:red;
+}
+
+.menu>ul>li>ul>li>ul>li {
+	background:blue;
+}
+
+.menu>ul>li>ul>li>ul>li>ul>li {
+	background:yellowgreen;
+}
 
 .built-by a:link,
 .built-by a:hover,
