@@ -75,3 +75,5 @@
             </div>
         </div>
     </header>
+    <div class="main-banner">
+    </div>
