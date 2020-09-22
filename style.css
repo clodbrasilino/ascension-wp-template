@@ -223,3 +223,8 @@ footer a:hover {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
 }
+
+.main-banner {
+	background: black url('/wp-content/themes/ascension/images/mainbanner.jpg') center/cover;
+	height: 20em;
+}
