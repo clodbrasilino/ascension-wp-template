@@ -112,9 +112,14 @@ header a, header a:hover, header a:link {
     list-style-type: none;
     margin: 0;
     width: 100%;
+    height: auto;
     padding: 0;
     display: inline-flex;
 		justify-content: space-evenly;
+}
+
+.menu li {
+	height: 1em;
 }
 
 .menu ul>li>ul {
