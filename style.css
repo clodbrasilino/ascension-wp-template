@@ -70,6 +70,7 @@ header a, header a:hover, header a:link {
 .main-menu {
     display: flex;
     height: 4em;
+    padding-bottom: 1em;
     justify-content: space-between;
     align-items: flex-end;
 }
