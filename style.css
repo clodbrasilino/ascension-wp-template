@@ -62,6 +62,11 @@ header a, header a:hover, header a:link {
     margin-bottom: 0.8em;
 }
 
+.container {
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
 .centered {
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +121,7 @@ header a, header a:hover, header a:link {
     height: auto;
     padding: 0;
     display: inline-flex;
-		justify-content: space-evenly;
+        justify-content: space-evenly;
 }
 
 .menu li {
@@ -152,16 +157,21 @@ header a, header a:hover, header a:link {
     width: 100%;
 }
 
-.menu>ul>li>ul>li {
-	background:red;
+.menu>ul>li>ul>li,
+.menu>ul>li>ul>li>ul>li,
+.menu>ul>li>ul>li>ul>li>ul>li {
+    background: black;
+    height: 1.5em;
 }
 
 .menu>ul>li>ul>li>ul>li {
-	background:blue;
+    position: relative;
+    left: 100%;
 }
 
 .menu>ul>li>ul>li>ul>li>ul>li {
-	background:yellowgreen;
+    position: relative;
+    left: 100%;
 }
 
 .built-by a:link,
