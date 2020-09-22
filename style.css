@@ -123,16 +123,16 @@ header a, header a:hover, header a:link {
 	height: 1em;
 }
 
-.menu ul>li>ul {
+.menu>ul>li>ul {
 	display: none;
 }
 
-.menu li:hover>ul {
+.menu>li:hover>ul {
 	display: block;
   transform: translateY(0);
 }
 
-.menu ul {
+.menu>ul {
 		transition: all 1s ease;
 }
 
