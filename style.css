@@ -128,20 +128,18 @@ header a, header a:hover, header a:link {
 	height: 1em;
 }
 
-.menu>ul>li>ul {
-	display: none;
-}
-
 .menu>li:hover>ul {
 	display: block;
   transform: translateY(0);
 }
 
-.menu>ul {
+.menu>ul,
+.children {
 		transition: all 1s ease;
 }
 
-.menu>ul>li>a:after, 
+.menu>ul>li>a:after,
+.children>li>a:after, 
 .built-by:after {
     content: "";
     display: flex;
@@ -153,6 +151,7 @@ header a, header a:hover, header a:link {
 }
 
 .menu>ul>li>a:hover:after,
+.children>li>a:hover:after,
 .built-by:hover:after {
     width: 100%;
 }
