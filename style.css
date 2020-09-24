@@ -299,3 +299,87 @@ li.menu-item {
 .first-sub-menu:hover .first-sub-menu>ul.sub-menu {
 	display: block;
 }
+
+#menu-item-438 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warlock.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-442 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/hunter.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-446 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/demon-hunter.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-449 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/death-knight.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-453 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-458 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warrior.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-462 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/rogue.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-466 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/mage.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-470 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/monk.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-474 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/paladin.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-478 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/priest.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#menu-item-482 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman.jpg');
+	background-position: right top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
