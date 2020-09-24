@@ -142,18 +142,19 @@ div.footer {
 	display: block;
 }
 
-span.built-by {
+div.built-by {
 	margin: auto;
 	text-align: center;
+	width: 18em;
 }
 
-span.built-by>a {
+div.built-by>a {
 	display: inline-block;
 }
 
 .menu-item>a:after,
 .menu-item>a:after, 
-span.built-by>a:after {
+div.built-by>a:after {
     content: "";
     display: block;
     position: relative;
@@ -166,7 +167,7 @@ span.built-by>a:after {
 
 .menu-item>a:hover:after,
 .menu-item>a:hover:after,
-span.built-by>a:hover:after {
+div.built-by>a:hover:after {
     width: 100%;
 }
 
