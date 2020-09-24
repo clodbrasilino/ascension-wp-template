@@ -283,6 +283,10 @@ li.menu-item {
 	list-style-type: none;
 	height: 1.5em;
 	width: 10em;
+	text-align: left;
+}
+
+.menu>li.menu-item {
 	text-align: center;
 }
 
