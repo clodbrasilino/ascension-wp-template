@@ -1,7 +1,7 @@
 
     <footer>
       <div class="footer">
-        <span class="built-by">Built with ❤️ by <a href="https://github.com/clodbrasilino">Clodoaldo Brasilino</a>.</span>
+        <div class="built-by">Built with ❤️ by <a href="https://github.com/clodbrasilino">Clodoaldo Brasilino</a>.</div>
       </div>
     </footer>
     <?php wp_footer(); ?>
