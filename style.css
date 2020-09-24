@@ -270,3 +270,7 @@ li.menu-item {
 	height: 1.5em;
 	text-align: center;
 }
+
+.first-sub-menu>ul.sub-menu{
+	left: 0;
+}
