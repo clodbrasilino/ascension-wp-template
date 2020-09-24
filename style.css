@@ -106,7 +106,7 @@ header a, header a:hover, header a:link {
     width: 100%;
 }
 
-.menu>ul>li>a,
+.menu-item>a,
 .built-by {
     padding: 0;
     color: white;
@@ -114,8 +114,7 @@ header a, header a:hover, header a:link {
     position: relative;
 }
 
-.menu>ul {
-    list-style-type: none;
+ul.menu {
     margin: 0;
     width: 100%;
     height: auto;
@@ -128,19 +127,21 @@ header a, header a:hover, header a:link {
 	height: 1em;
 }
 
-.menu>li:hover>ul {
+.menu-item:hover>ul {
 	display: block;
   transform: translateY(0);
 }
 
-.menu>ul,
+ul.menu,
+ul.sub-menu,
 .children {
 		transition: all 1s ease;
 }
 
-.menu>ul>li>a:after,
-.children>li>a:after, 
+.menu-item>a:after,
+.menu-item>a:after, 
 .built-by:after {
+
     content: "";
     display: flex;
     width: 0;
@@ -150,17 +151,11 @@ header a, header a:hover, header a:link {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
-.menu>ul>li>a:hover:after,
-.children>li>a:hover:after,
+.menu-item>a:hover:after,
+.menu-item>a:hover:after,
 .built-by:hover:after {
     width: 100%;
-}
-
-.menu>ul>li>ul>li,
-.menu>ul>li>ul>li>ul>li,
-.menu>ul>li>ul>li>ul>li>ul>li {
-    background: black;
-    height: 1.5em;
+    position: relative;
 }
 
 .built-by a:link,
@@ -259,4 +254,19 @@ li.page_item_has_children:hover>ul.children {
 	list-style-type: none;
 	position: relative;
 	width: auto;
+}
+
+ul.sub-menu {
+	background: black;
+	padding: 0.2em;
+	left: 100%;
+	position: relative;
+	box-shadow: 0.3em 0.3em 0.5em #0000003A;   
+
+}
+
+li.menu-item {
+	list-style-type: none;
+	height: 1.5em;
+	text-align: center;
 }
