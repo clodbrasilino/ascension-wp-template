@@ -12,7 +12,7 @@ body {
 
 header {
       z-index: 1;
-	  top: 1em;
+	  top: 7em;
       background: black;
       display: block;
 	  position: fixed;
@@ -33,7 +33,7 @@ header a, header a:hover, header a:link {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 2.5em;
+    height: 1.5em;
     width: 100%;
     margin: auto;
     background: black;
@@ -44,8 +44,8 @@ header a, header a:hover, header a:link {
 }
 
 .social-icon {
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .no-bullets {
@@ -57,7 +57,7 @@ header a, header a:hover, header a:link {
 }
 
 .menu-button {
-    height: 2em;
+    height: 1.2em;
     vertical-align: center;
     margin-bottom: 0.8em;
 }
@@ -74,8 +74,8 @@ header a, header a:hover, header a:link {
 
 .main-menu {
     display: flex;
-    height: 4em;
-    padding-bottom: 1em;
+    height: 3em;
+    padding-bottom: 0.5em;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -129,7 +129,7 @@ ul.menu {
 
 .menu-item:hover>ul {
 	display: block;
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 ul.menu,
@@ -270,10 +270,11 @@ li.page_item_has_children:hover>ul.children {
 }
 
 ul.sub-menu {
-	top: -1.5em;
+	left: 12.8em;
+	top: -2em;
+	width: 13em;
 	background: black;
 	padding: 0.2em;
-	left: 100%;
 	position: relative;
 	box-shadow: 0.3em 0.3em 0.5em #0000003A;   
     display: none;
@@ -281,8 +282,7 @@ ul.sub-menu {
 
 li.menu-item {
 	list-style-type: none;
-	height: 1.5em;
-	width: 10em;
+    height: 3em;
 	text-align: left;
 }
 
@@ -292,7 +292,7 @@ li.menu-item {
 
 .first-sub-menu>ul.sub-menu {
 	left: 0;
-    top: 0;
+    top: 1em;
     width: auto;
 }
 
@@ -322,195 +322,291 @@ li.menu-item {
 
 }
 
-#menu-item-438 {
+li#menu-item-438 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warlock.jpg');
+	padding-right: 9.8em;
 }
 
 #menu-item-439 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warlock/demonology.png');
+	padding-right: 6.7em;
 }
 
 #menu-item-440 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warlock/destruction.png');
+	padding-right: 7.7em;
 }
 
 #menu-item-441 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warlock/affliction.png');
+	padding-right: 9.1em;
 }
 
 #menu-item-442 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/hunter.jpg');
+	padding-right: 8.8em;
 }
 
 #menu-item-443 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/hunter/beast mastery.png');
+	padding-right: 4.3em;
 }
 
 #menu-item-444 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/hunter/marksmanship.png');
+	padding-right: 8.8em;
 }
 
 #menu-item-445 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/hunter/survival.png');
+	padding-right: 6.4em;
 }
 
 #menu-item-446 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/demon-hunter.jpg');
+	padding-right: 2.8em;
 }
 
 #menu-item-447 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/demon-hunter/havoc.png');
+	padding-right: 7.4em;
 }
 
 #menu-item-448 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/demon-hunter/vengeance.png');
+	padding-right: 8.4em;
 }
 
 #menu-item-449 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/death-knight.jpg');
+	padding-right: 4.2em;
 }
 
 #menu-item-450 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/death-knight/frost.png');
+	padding-right: 10.4em;
 }
 
 #menu-item-451 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/death-knight/unholy.png');
+	padding-right: 9.1em;
 }
 
 #menu-item-452 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/death-knight/blood.png');
+	padding-right: 9.1em;
 }
 
 #menu-item-453 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid.jpg');
+	padding-right: 9.6em;
 }
 
 #menu-item-454 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid/balance.png');
+	padding-right: 8.4em;
 }
 
 #menu-item-455 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid/feral.png');
+	padding-right: 10.3em;
 }
 
 #menu-item-456 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid/guardian.png');
+	padding-right: 8.4em;
 }
 
 #menu-item-457 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/druid/restoration.png');
+	padding-right: 7em;
 }
 
 #menu-item-458 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warrior.jpg');
+	padding-right: 8.2em;
 }
 
 #menu-item-459 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warrior/arms.png');
+	padding-right: 9.6em;
 }
 
 #menu-item-460 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warrior/fury.png');
+	padding-right: 10.2em;
 }
 
 #menu-item-461 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/warrior/protection.png');
+	padding-right: 8.6em;
 }
 
 #menu-item-462 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/rogue.jpg');
+	padding-right: 9.4em;
 }
 
 #menu-item-463 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/rogue/assassination.png');
+	padding-right: 7.3em;
 }
 
 #menu-item-464 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/rogue/outlaw.png');
+	padding-right: 7.6em;
 }
 
 #menu-item-465 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/rogue/subtlety.png');
+	padding-right: 7.3em;
 }
 
 #menu-item-466 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/mage.jpg');
+	padding-right: 10em;
 }
 
 #menu-item-467 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/mage/arcane.png');
+	padding-right: 9.4em;
 }
 
 #menu-item-468 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/mage/fire.png');
+	padding-right: 10.2em;
 }
 
 #menu-item-469 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/mage/frost.png');
+	padding-right: 9.6em;
 }
 
 #menu-item-470 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/monk.jpg');
+	padding-right: 9.4em;
 }
 
 #menu-item-471 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/monk/windwalker.png');
+	padding-right: 4.1em;
 }
 
 #menu-item-472 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/monk/brewmaster.png');
+	padding-right: 4.7em;
 }
 
 #menu-item-473 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/monk/mistweaver.png');
+	padding-right: 3.8em;
 }
 
 #menu-item-474 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/paladin.jpg');
+	padding-right: 8.8em;
 }
 
 #menu-item-475 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/paladin/protection.png');
+	padding-right: 8.7em;
 }
 
 #menu-item-476 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/paladin/retribution.png');
+	padding-right: 7.6em;
 }
 
 #menu-item-477 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/paladin/holy.png');
+	padding-right: 8.9em;
 }
 
 #menu-item-478 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/priest.jpg');
+	padding-right: 8.1em;
 }
 
 #menu-item-479 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/priest/discipline.png');
+	padding-right: 8.4em;
 }
 
 #menu-item-480 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/priest/holy.png');
+	padding-right: 8.9em;
 }
 
 #menu-item-481 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/priest/shadow.png');
+	padding-right: 9.1em;
 }
 
 #menu-item-482 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman.jpg');
+	padding-right: 10em;
 }
 
 #menu-item-483 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman/enhancement.png');
+	padding-right: 5.1em;
 }
 
 #menu-item-484 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman/elemental.png');
+	padding-right: 8.1em;
 }
 
 #menu-item-485 {
 	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman/restoration.png');
+	padding-right: 7em;
 }
 
+#menu-item-437 {
+	width: 2.5em;
+}
+
+#menu-item-437>ul.sub-menu {
+	top: 0.8em;
+	width: 6.2em;
+}
+
+#menu-item-504 {
+    width: 6.2em;
+    padding-right: 2.9em;
+}
+
+#menu-item-504>ul.sub-menu {
+	top: -2.1em;
+	left: 6em;
+    width: 13em;
+}
+
+#menu-item-504 ul.sub-menu>li.menu-item {
+    width: 12.5em;
+    height: 3em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+#menu-item-436 {
+	width: 2.5em;
+}
+
+#menu-item-562 {
+	width: 6.2em;
+}
+
+#menu-item-557 {
+	padding-right: 1.3em;
+}
+
+#menu-item-557>ul.sub-menu{
+	left:6em;
+	width: 10em;
+}
+
+#menu-item-546 {
+	background-image: url('http://ascensionguild.com.br/wp-content/themes/ascension/images/class/shaman/restoration.png');
+	padding-right: 5.2em;
+}
