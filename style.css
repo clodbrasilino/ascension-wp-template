@@ -6,7 +6,6 @@ Version: 0.0.1
 Tags: wow
 */
 body {
-    font-size: 24pt;
     background: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -695,4 +694,10 @@ li#menu-item-438 {
 #menu-item-556 {
     background-image: url(http://ascensionguild.com.br/wp-content/themes/ascension/images/profession/mining.jpg);
     padding-right: 5.1em;
+}
+
+div.container {
+	background: white;
+	box-shadow: 0.4em 0.8em 0.2em #303030;
+	margin-bottom: 3em;
 }
