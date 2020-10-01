@@ -82,10 +82,10 @@ header a, header a:hover, header a:link {
 
 img.brand {
     overflow: visible;
-    width: 8em;
-    height: 8em;
+    width: 12em;
+    height: 10em;
     margin: 0;
-    margin-bottom: -1.5em;
+    margin-bottom: -3em;
     padding: 0;
 }
 
