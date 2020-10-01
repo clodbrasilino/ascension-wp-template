@@ -6,7 +6,7 @@ Version: 0.0.1
 Tags: wow
 */
 body {
-    background: black;
+    background: #171717;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,7 +15,7 @@ header {
 	  top: 7em;
       background: black;
       display: block;
-	  position: fixed;
+	  position: absolute;
 	  width: 100%;
 	  height: auto;
 }
@@ -30,7 +30,7 @@ header a, header a:hover, header a:link {
 }
 
 .social-bar {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: center;
     height: 1.5em;
@@ -74,17 +74,18 @@ header a, header a:hover, header a:link {
 
 .main-menu {
     display: flex;
-    height: 3em;
+    height: 5em;
     padding-bottom: 0.5em;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.brand {
+img.brand {
     overflow: visible;
-    width: 5em;
-    height: 5em;
+    width: 8em;
+    height: 8em;
     margin: 0;
+    margin-bottom: -1.5em;
     padding: 0;
 }
 
@@ -238,8 +239,9 @@ footer a:hover {
 }
 
 .main-banner {
-	background: black url('/wp-content/themes/ascension/images/mainbanner.png') center/cover;
-	height: 20em;
+	background: black url('/wp-content/themes/ascension/images/mainbanner.png') center -15em/100vw no-repeat;
+	background-size: 140em 80em;
+	height: 60em;
 }
 
 .page_item_has_children>.children {
@@ -698,6 +700,8 @@ li#menu-item-438 {
 
 div.container {
 	background: white;
-	box-shadow: 0.4em 0.8em 0.2em #303030;
+	border-left: 0.2em solid black;
+	border-bottom: 0.2em solid black;
+	border-right: 0.2em solid black;
 	margin-bottom: 3em;
 }
