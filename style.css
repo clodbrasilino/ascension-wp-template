@@ -36,7 +36,7 @@ header a, header a:hover, header a:link {
     height: 1.5em;
     width: 100%;
     margin: auto;
-    background: black;
+	background: black;
 }
 
 .last-social {
@@ -59,7 +59,8 @@ header a, header a:hover, header a:link {
 .menu-button {
     height: 1.2em;
     vertical-align: center;
-    margin-bottom: 0.8em;
+	margin-bottom: 0.8em;
+	visibility: hidden;
 }
 
 .container {
@@ -704,6 +705,10 @@ li#menu-item-438 {
 #menu-item-556 {
     background-image: url(http://ascensionguild.com.br/wp-content/themes/ascension/images/profession/mining.jpg);
     padding-right: 5.1em;
+}
+
+#menu-item-639 {
+	width: 2.5em;
 }
 
 div.container {
