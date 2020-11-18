@@ -79,7 +79,7 @@ header a, header a:hover, header a:link {
     justify-content: space-between;
 	align-items: flex-end;
 	background: url('/wp-content/themes/ascension/images/linha.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 img.brand {
