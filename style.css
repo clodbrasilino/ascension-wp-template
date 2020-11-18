@@ -135,6 +135,10 @@ ul.menu {
     transform: translateY(0);
 }
 
+img.asc-members-button {
+    height: 1.8em;
+}
+
 ul.menu,
 ul.sub-menu,
 .children {
