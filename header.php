@@ -47,7 +47,9 @@
         </div>
         <div class="main-menu">
             <div class="menu-block menu-1">
-                <a class="menu-button" href="#">ASC Membros</a>
+                <a href="#" class="asc-members-button">
+                    <img class="menu-button" src="/wp-content/themes/ascension/images/asc-membros.png">
+                </a>
             </div>
             <div class="menu-block menu-2">
                 <!--<ul class="menu-bar">
