@@ -77,7 +77,9 @@ header a, header a:hover, header a:link {
     height: 5em;
     padding-bottom: 0.5em;
     justify-content: space-between;
-    align-items: flex-end;
+	align-items: flex-end;
+	background: url('/wp-content/themes/ascension/images/linha.png');
+    background-size: cover;
 }
 
 img.brand {
@@ -205,7 +207,7 @@ div.built-by>a:hover:after {
 }
 
 .menu-3 {
-    flex-grow: 2;
+    flex-grow: 0;
 }
 
 .menu-4 {
@@ -283,6 +285,7 @@ ul.sub-menu {
 }
 
 li.menu-item {
+	padding-top: 1em;
 	list-style-type: none;
     height: 3em;
 	text-align: left;
