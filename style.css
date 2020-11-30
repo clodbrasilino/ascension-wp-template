@@ -148,6 +148,7 @@ ul.sub-menu,
 }
 
 div.footer {
+	top: -5em;
 	display: block;
 }
 
@@ -725,6 +726,11 @@ li#menu-item-640>ul.sub-menu, li#menu-item-641>ul.sub-menu {
     left: 2.7em;
     top: -3em;
     width: 6em;
+}
+
+.footer-shield {
+	align-items: center;
+	height: 3em;
 }
 
 div.container {
