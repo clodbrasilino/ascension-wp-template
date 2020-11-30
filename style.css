@@ -27,19 +27,18 @@ header a, header a:hover, header a:link {
 
 .social-bar {
 	position: relative;
-	top: -10em;
-	margin-top: -14em;
-    height: 4em;
+	top: -6em;
+	margin-top: -8em;
+    height: 2em;
 	width: 100%;
 	margin: 0;
 	background: rgb(62, 65, 65);
 }
 
 .social-links { 
-	width: 50%;
+	width: 20%;
 	height: 100%;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin: auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -53,7 +52,7 @@ header a, header a:hover, header a:link {
 }
 
 a.nav-link {
-	width: 4em;
+	width: 2em;
 }
 
 .no-bullets {
