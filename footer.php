@@ -2,33 +2,21 @@
     <footer>
       <div class="footer">
         <div class="social-bar">
-          <ul class="social-bar">
-              <li class="no-bullets inline">
-                  <a href="#" class="nav-link">
-                      <img class="social-icon" src="/wp-content/themes/ascension/images/youtube.png">
-                  </a>
-              </li>
-              <li class="no-bullets inline">
-                  <a href="#" class="nav-link">
-                      <img class="social-icon" src="/wp-content/themes/ascension/images/facebook.png">
-                  </a>
-              </li>
-              <li class="no-bullets inline">
-                  <a href="#" class="nav-link">
-                      <img class="social-icon" src="/wp-content/themes/ascension/images/instagram.png">
-                  </a>
-              </li>
-              <li class="no-bullets inline">
-                  <a href="#" class="nav-link">
-                      <img class="social-icon" src="/wp-content/themes/ascension/images/discord.png">
-                  </a>
-              </li>
-              <li class="no-bullets inline    ">
-                  <a href="#" class="nav-link">
-                      <img class="social-icon" src="/wp-content/themes/ascension/images/twitch.png">
-                  </a>
-              </li>
-          </ul>
+          <a href="#" class="nav-link">
+              <img class="social-icon" src="/wp-content/themes/ascension/images/youtube.png">
+          </a>
+          <a href="#" class="nav-link">
+              <img class="social-icon" src="/wp-content/themes/ascension/images/facebook.png">
+          </a>
+          <a href="#" class="nav-link">
+              <img class="social-icon" src="/wp-content/themes/ascension/images/instagram.png">
+          </a>
+          <a href="#" class="nav-link">
+              <img class="social-icon" src="/wp-content/themes/ascension/images/discord.png">
+          </a>
+          <a href="#" class="nav-link">
+              <img class="social-icon" src="/wp-content/themes/ascension/images/twitch.png">
+          </a>
         </div>
         <div class="footer-shield"></div>
         <div class="built-by">Ascension Guild © 2020</a></div>
