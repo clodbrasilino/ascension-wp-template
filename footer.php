@@ -20,9 +20,9 @@
             </a>
           </div>
         </div>
-        <div class="footer-shield"></div>
-        <div class="built-by">Ascension Guild © 2020</a></div>
-        <div class="built-by">Construído com ❤️ por <a href="https://github.com/clodbrasilino">Clodoaldo</a> - Design criado por Amanda e Hudson - Powered by <a href="https://wordpress.org/">WordPress</a></div>
+        <div class="footer-shield footer-height-fix"></div>
+        <div class="built-by footer-height-fix">Ascension Guild © 2020</a></div>
+        <div class="built-by footer-height-fix">Construído com ❤️ por <a href="https://github.com/clodbrasilino">Clodoaldo</a> - Design criado por Amanda e Hudson - Powered by <a href="https://wordpress.org/">WordPress</a></div>
       </div>
     </footer>
     <?php wp_footer(); ?>

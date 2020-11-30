@@ -732,6 +732,11 @@ li#menu-item-640>ul.sub-menu, li#menu-item-641>ul.sub-menu {
     width: 6em;
 }
 
+.footer-height-fix {
+	position: relative;
+	top: -3em;
+}
+
 .footer-shield {
     display: inline-block;
     align-items: center;
