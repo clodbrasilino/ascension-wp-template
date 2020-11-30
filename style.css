@@ -26,7 +26,9 @@ header a, header a:hover, header a:link {
 }
 
 .social-bar {
-	top: -30em;
+	position: relative;
+	top: -10em;
+	margin-top: -15em;
     height: 5em;
 	width: 100%;
 	margin: 0;
@@ -47,6 +49,10 @@ header a, header a:hover, header a:link {
 
 .social-icon {
 	height: 100%;
+}
+
+a.nav-link {
+
 }
 
 .no-bullets {
