@@ -1,7 +1,35 @@
 
     <footer>
       <div class="footer">
-        <div class="social-bar"></div>
+        <div class="social-bar">
+          <ul class="social-bar">
+              <li class="no-bullets inline">
+                  <a href="#" class="nav-link">
+                      <img class="social-icon" src="images/youtube.png">
+                  </a>
+              </li>
+              <li class="no-bullets inline">
+                  <a href="#" class="nav-link">
+                      <img class="social-icon" src="images/facebook.png">
+                  </a>
+              </li>
+              <li class="no-bullets inline">
+                  <a href="#" class="nav-link">
+                      <img class="social-icon" src="images/instagram.png">
+                  </a>
+              </li>
+              <li class="no-bullets inline">
+                  <a href="#" class="nav-link">
+                      <img class="social-icon" src="images/discord.png">
+                  </a>
+              </li>
+              <li class="no-bullets inline    ">
+                  <a href="#" class="nav-link">
+                      <img class="social-icon" src="images/twitch.png">
+                  </a>
+              </li>
+          </ul>
+        </div>
         <div class="footer-shield"></div>
         <div class="built-by">Ascension Guild © 2020</a></div>
         <div class="built-by">Construído com ❤️ por <a href="https://github.com/clodbrasilino">Clodoaldo</a> - Design criado por Amanda e Hudson - Powered by <a href="https://wordpress.org/">WordPress</a></div>
