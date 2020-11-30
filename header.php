@@ -28,23 +28,6 @@
 
   <body>
     <header>
-        <div class="social-bar">
-            <a href="#" class="">
-                <img class="social-icon" src="/wp-content/themes/ascension/images/youtube.png">
-            </a>
-            <a href="#" class="">
-                <img class="social-icon" src="/wp-content/themes/ascension/images/facebook.png">
-            </a>
-            <a href="#" class="">
-                <img class="social-icon" src="/wp-content/themes/ascension/images/instagram.png">
-            </a>
-            <a href="#" class="">
-                <img class="social-icon" src="/wp-content/themes/ascension/images/discord.png">
-            </a>
-            <a href="#" class="last-social">
-                <img class="social-icon" src="/wp-content/themes/ascension/images/twitch.png">
-            </a>
-        </div>
         <div class="main-menu">
             <div class="menu-block menu-1">
                 <a href="https://docs.google.com/spreadsheets/d/1WMN-a1lkq9MAhwuUGrcndJ6y8eisHkETaBTQxFuevLs" target="_blank">
