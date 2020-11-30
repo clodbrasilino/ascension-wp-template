@@ -1,4 +1,3 @@
-
     <footer>
       <div class="footer">
         <div class="social-bar">
@@ -23,6 +22,11 @@
         <div class="footer-shield footer-height-fix"></div>
         <div class="built-by footer-height-fix">Ascension Guild © 2020</a></div>
         <div class="built-by footer-height-fix">Construído com ❤️ por <a href="https://github.com/clodbrasilino">Clodoaldo</a> - Design criado por Amanda e Hudson - Powered by <a href="https://wordpress.org/">WordPress</a></div>
+      </div>
+      <div class="regras">
+        <a href="#">
+          <img src="/wp-content/themes/ascension/images/regras.png">
+        </a>
       </div>
     </footer>
     <?php wp_footer(); ?>
