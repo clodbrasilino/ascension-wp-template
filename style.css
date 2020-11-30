@@ -26,6 +26,7 @@ header a, header a:hover, header a:link {
 }
 
 .social-bar {
+	top: -30em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -39,8 +40,9 @@ header a, header a:hover, header a:link {
 	background: rgb(62, 65, 65);
 }
 
-.last-social {
-    margin-right: 2em;
+.social-links{ 
+	width: 100%;
+	height: 100%;
 }
 
 .social-icon {
