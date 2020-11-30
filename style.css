@@ -155,11 +155,6 @@ ul.sub-menu,
 		transition: all 1s ease;
 }
 
-div.footer {
-	top: -5em;
-	display: block;
-}
-
 div.built-by {
 	margin: auto;
 	text-align: center;
@@ -249,7 +244,8 @@ footer a:hover {
 }
 
 .footer {
-    display: flex;
+	top: -5em;
+	display: block;
     justify-content: center;
     padding-bottom: 0.3em;
     padding-top: 0.3em;
