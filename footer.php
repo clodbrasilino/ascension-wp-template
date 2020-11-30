@@ -5,27 +5,27 @@
           <ul class="social-bar">
               <li class="no-bullets inline">
                   <a href="#" class="nav-link">
-                      <img class="social-icon" src="images/youtube.png">
+                      <img class="social-icon" src="/wp-content/themes/ascension/images/youtube.png">
                   </a>
               </li>
               <li class="no-bullets inline">
                   <a href="#" class="nav-link">
-                      <img class="social-icon" src="images/facebook.png">
+                      <img class="social-icon" src="/wp-content/themes/ascension/images/facebook.png">
                   </a>
               </li>
               <li class="no-bullets inline">
                   <a href="#" class="nav-link">
-                      <img class="social-icon" src="images/instagram.png">
+                      <img class="social-icon" src="/wp-content/themes/ascension/images/instagram.png">
                   </a>
               </li>
               <li class="no-bullets inline">
                   <a href="#" class="nav-link">
-                      <img class="social-icon" src="images/discord.png">
+                      <img class="social-icon" src="/wp-content/themes/ascension/images/discord.png">
                   </a>
               </li>
               <li class="no-bullets inline    ">
                   <a href="#" class="nav-link">
-                      <img class="social-icon" src="images/twitch.png">
+                      <img class="social-icon" src="/wp-content/themes/ascension/images/twitch.png">
                   </a>
               </li>
           </ul>
