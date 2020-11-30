@@ -1,7 +1,7 @@
 
     <footer>
       <div class="footer">
-        <div class="footer-shield"><img src="/wp-content/themes/ascension/images/ascension-shield.png"></div>
+        <div class="footer-shield"></div>
         <div class="built-by">Construído com ❤️ por <a href="https://github.com/clodbrasilino">Clodoaldo</a> - Design criado por Amanda e Hudson - Powered by <a href="https://wordpress.org/">WordPress</a></div>
       </div>
     </footer>

@@ -729,8 +729,10 @@ li#menu-item-640>ul.sub-menu, li#menu-item-641>ul.sub-menu {
 }
 
 .footer-shield {
+	display: inline;
 	align-items: center;
-	height: 3em;
+	height: 5em;
+	background: url('/wp-content/themes/ascension/images/ascension-shield.png') center/3em center/2em no-repeat content-box;
 }
 
 div.container {
