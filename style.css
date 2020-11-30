@@ -28,15 +28,15 @@ header a, header a:hover, header a:link {
 .social-bar {
 	position: relative;
 	top: -10em;
-	margin-top: -15em;
-    height: 5em;
+	margin-top: -14em;
+    height: 4em;
 	width: 100%;
 	margin: 0;
 	background: rgb(62, 65, 65);
 }
 
 .social-links { 
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	margin-left: 25%;
 	margin-right: 25%;
@@ -49,10 +49,11 @@ header a, header a:hover, header a:link {
 
 .social-icon {
 	height: 100%;
+	width: 100%;
 }
 
 a.nav-link {
-
+	width: 4em;
 }
 
 .no-bullets {
