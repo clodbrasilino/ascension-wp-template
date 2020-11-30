@@ -44,8 +44,8 @@ header a, header a:hover, header a:link {
 }
 
 .social-icon {
-    width: 1.5em;
-    height: 1.5em;
+	height: 100%;
+	width: fit-content;
 }
 
 .no-bullets {
