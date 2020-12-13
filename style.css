@@ -26,10 +26,11 @@ header a, header a:hover, header a:link {
 }
 
 .social-bar {
+	padding: 0.5em;
 	position: relative;
 	top: -6em;
 	margin-top: -8em;
-    height: 2em;
+    height: 3em;
 	width: 100%;
 	margin: 0;
 	background: rgb(62, 65, 65);
